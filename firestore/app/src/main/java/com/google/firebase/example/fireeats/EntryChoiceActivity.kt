@@ -10,11 +10,11 @@ class EntryChoiceActivity : BaseEntryChoiceActivity() {
         return listOf(
                 Choice(
                         "Java",
-                        "Run the Cloud Firestore quickstart written in Java.",
+                        "Run the Cloud Firestore quickstart written in Java. (Changed by Nihar) ",
                         Intent(this, com.google.firebase.example.fireeats.java.MainActivity::class.java)),
                 Choice(
                         "Kotlin",
-                        "Run the Cloud Firestore quickstart written in Kotlin.",
+                        "Run the Cloud Firestore quickstart written in Kotlin. (Changed by Nihar) ",
                         Intent(this, com.google.firebase.example.fireeats.kotlin.MainActivity::class.java))
         )
     }
